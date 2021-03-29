@@ -1,0 +1,17 @@
+.testify-item {
+  background: #fff;
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+}
+
+.testify-item header {
+  padding: 3.2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.testify-item p {
+  padding: 0 2.5rem 3.2rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
