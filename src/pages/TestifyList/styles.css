@@ -1,0 +1,10 @@
+#page-testify-list {
+  background: #3d5a80;
+  padding-bottom: 3rem;
+}
+
+#page-testify-list main {
+  margin: 1.2rem auto;
+  width: 90%;
+  border-top: 1px solid #fff;
+}
