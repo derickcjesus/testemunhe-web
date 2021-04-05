@@ -1,0 +1,104 @@
+.testify-form-page {
+  background: #3d5a80;
+  padding-bottom: 3rem;
+}
+
+.testify-form-page main {
+  background: #fff;
+  width: 90%;
+  margin: 0 auto 3.2rem;
+  max-width: 74rem;
+  border-radius: 0.8rem;
+  padding-top: 6.4rem;
+  overflow: hidden;
+}
+
+.testify-form-page main fieldset {
+  border: 0;
+  padding: 0 2.4rem;
+}
+
+.testify-form-page main fieldset + fieldset {
+  margin-top: 6.4rem;
+}
+
+.testify-form-page main fieldset legend {
+  font: 700 2.4rem "Josefin Sans", sans-serif;
+  color: #03071e;
+  margin-bottom: 2.4rem;
+  width: 100%;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.testify-form-page main fieldset .input-block + .input-block {
+  margin-top: 1.4rem;
+}
+
+.testify-form-page main fieldset .input-block label {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.testify-form-page main fieldset .input-block input {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  outline: 0;
+  padding: 0 1.6rem;
+  font: 1.6rem "Josefin Sans", sans-serif;
+}
+
+.testify-form-page main fieldset .input-block input:focus {
+  border-color: #9ecaed;
+  box-shadow: 0 0 8px #9ecaed;
+}
+
+textarea {
+  width: 100%;
+  height: 16rem;
+  min-height: 8rem;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  outline: 0;
+  resize: vertical;
+  padding: 1.2rem 1.6rem;
+  font: 1.6rem "Josefin Sans", sans-serif;
+}
+
+.testify-form-page main footer {
+  padding: 0 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+.testify-form-page main footer p {
+  color: #03071e8f;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.testify-form-page main footer button {
+  width: 100%;
+  height: 5.6rem;
+  background: #3d5a80;
+  color: #fff;
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.7rem "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
