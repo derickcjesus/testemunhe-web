@@ -10,7 +10,7 @@ export default function Routes() {
     <BrowserRouter>
       <Route exact path="/" component={LandingPage} />
       <Route path="/testify-form" component={TestifyForm} />
-      <Route path="/testify" component={TestifyList} />
+      <Route path="/testify-list" component={TestifyList} />
     </BrowserRouter>
   );
 }
