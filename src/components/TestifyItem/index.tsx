@@ -2,54 +2,28 @@ import React from 'react'
 
 import './styles.css'
 
-export default function TestifyItem() {
+export interface Testimony {
+    id: number;
+    name: string;
+    age: string;
+    testimony: string;
+}
+
+interface TestimonyItemProps {
+    testimonys: Testimony;
+}
+
+const TestifyItem: React.FC<TestimonyItemProps> = ({ testimonys }) => {
     return (
         <article className="testify-item">
                 <header>
-                    <strong>Derick de Jesus</strong>
-                    <span>21 anos</span>
+                    <strong>{testimonys.name}</strong>
+                    <span>{testimonys.age}</span>
                 </header>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Aut, sunt laboriosam 
-                    tenetur voluptatum cumque voluptate maxime
-                    consequatur nihil delectus accusantium
-                    officia nostrum maiores quia mollitia? 
-                    Delectus facilis saepe dicta molestias.
-                    Aut, sunt laboriosam tenetur voluptatum
-                    cumque voluptate maximeconsequatur nihil 
-                    delectus accusantiumofficia nostrum maiores
-                    quia mollitia? Delectus facilis saepe dicta 
-                    molestias. Aut, sunt laboriosam 
-                    tenetur voluptatum cumque voluptate maxime
-                    consequatur nihil delectus accusantium
-                    officia nostrum maiores quia mollitia? 
-                    Delectus facilis saepe dicta molestias.
-                    Aut, sunt laboriosam tenetur voluptatum
-                    cumque voluptate maximeconsequatur nihil 
-                    delectus accusantiumofficia nostrum maiores
-                    quia mollitia? Delectus facilis saepe dicta 
-                    molestias. Aut, sunt laboriosam 
-                    tenetur voluptatum cumque voluptate maxime
-                    consequatur nihil delectus accusantium
-                    officia nostrum maiores quia mollitia? 
-                    Delectus facilis saepe dicta molestias.
-                    Aut, sunt laboriosam tenetur voluptatum
-                    cumque voluptate maximeconsequatur nihil 
-                    delectus accusantiumofficia nostrum maiores
-                    quia mollitia? Delectus facilis saepe dicta 
-                    molestias. Aut, sunt laboriosam 
-                    tenetur voluptatum cumque voluptate maxime
-                    consequatur nihil delectus accusantium
-                    officia nostrum maiores quia mollitia? 
-                    Delectus facilis saepe dicta molestias.
-                    Aut, sunt laboriosam tenetur voluptatum
-                    cumque voluptate maximeconsequatur nihil 
-                    delectus accusantiumofficia nostrum maiores
-                    quia mollitia? Delectus facilis saepe dicta 
-                    molestias.
-                </p>
+                <p>{testimonys.testimony}</p>
         </article>
     );
 }
+
+export default TestifyItem;
