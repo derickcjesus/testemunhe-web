@@ -36,13 +36,60 @@
   font: 700 1.8rem "Josefin Sans", sans-serif;
 }
 
-.buttons-container a.read-testimony {
+.buttons-container a#read-testimony {
   background-color: #98c1d9;
   color: #333333;
 }
 
-.buttons-container a.testify {
+.buttons-container a#testify {
   background-color: #3d5a80;
   color: #e0e0e0;
   margin-top: 2rem;
+}
+
+@media (min-width: 1400px) {
+  .page-home .container img {
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .container main {
+    margin: 14rem;
+  }
+
+  .container main p {
+    font-size: 5rem;
+    line-height: 5.2rem;
+  }
+
+  .container main h4 {
+    color: rgba(3, 7, 30, 0.65);
+    font-size: 2rem;
+  }
+
+  .container .buttons-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .container .buttons-container a {
+    height: 8rem;
+  }
+
+  .container .buttons-container a#testify {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1399px) {
+  .container main,
+  p,
+  h4,
+  .buttons-container {
+    width: 90%;
+    margin: 4rem auto;
+  }
 }
