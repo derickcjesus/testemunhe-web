@@ -19,15 +19,15 @@ export default function LandingPage() {
           <h4>Dê aqui o seu testemunho ou leia alguns de outras pessoas</h4>
 
           <div className="buttons-container">
-            <Link to="/testify" className="read-testimony">
+            <Link to="/testify-list" id="read-testimony">
               Ler testemunho
             </Link>
-            <Link to="/testify-form" className="testify">
+            <Link to="/testify-form" id="testify">
               Dar testemunho
             </Link>
           </div>
         </main>
-
+        
         <img src={bibleMobile} alt="biblia" />
       </div>
     </div>
